@@ -20,6 +20,7 @@ class RootIndex extends React.Component {
           <div className="wrapper">
             <h2 className="section-headline">Recent articles</h2>
             <ul className="article-list">
+              Our Posts:
               {posts.map(({ node }) => {
                 return (
                   <li key={node.slug}>
